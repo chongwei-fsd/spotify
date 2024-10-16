@@ -1,0 +1,115 @@
+.SearchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.94rem;
+  margin-bottom: 6.33rem;
+}
+
+/* cw */
+/* .SearchBar {
+  align-items: center;
+  display: flex;
+} */
+
+.SearchBar input {
+  width: 287px;
+  padding: .88rem 0;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-bottom: 2.22rem;
+  color: #010c3f;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* cw */
+/* .SearchBar input {
+  width: 287px;
+  padding: 1rem;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-items: center;
+  color: #010c3f;
+  text-align: center;
+  font-size: 1rem;
+  align-content: center;
+} */
+
+
+.SearchBar input:focus {
+  outline: none;
+}
+
+.Player{
+  padding: 1rem;
+  float: right;
+}
+
+/* .SearchButton {
+  cursor: pointer;
+  width: 8.11rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  background-color: #010c3f;
+  text-align: center;
+  font-size: .833rem;
+  transition: background-color .25s;
+  border: 0px;
+  color: #fff;
+  font-weight: 500;
+} */
+
+/* .SearchButton:hover {
+  background-color: rgba(108, 65, 233, .7);
+} */
+
+.SearchButton {
+  cursor: pointer;
+  width: 8.11rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  background-color: #1ed760;
+  text-align: center;
+  font-size: .833rem;
+  transition: background-color .25s;
+  border: 0px;
+  color: black;
+  font-weight: 500;
+  padding: 1rem;
+}
+
+.SearchButton:hover {
+  background-color: rgba(30, 215, 96, .6);
+  color: white;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchBar {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-top: 6.94rem;
+  margin-bottom: 6.33rem;
+}
+
+.SearchBar input {
+  width: 287px;
+  margin-top: 0rem;
+  padding: .88rem 0;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  margin-bottom: 2.22rem;
+  color: #010c3f;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.Player{
+  padding: 1rem;
+  float: center;
+}
+
+}
